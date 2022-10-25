@@ -1,0 +1,24 @@
+body {
+	color: white;
+	background-color: rgb(177, 78, 78);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	div {
+		background-color: cornflowerblue;
+	}
+
+	p {
+		width: 100px;
+	}
+}
+
+@media only screen and (min-width: 481px) {
+	div {
+		background-color: rgb(4, 29, 75);
+	}
+
+	p {
+		width: 250px;
+	}
+}

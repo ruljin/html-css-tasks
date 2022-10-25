@@ -1,0 +1,22 @@
+a {
+	display: block;
+	opacity: 0.75;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:link {
+	color: royalblue;
+}
+
+a:visited {
+	color: rgb(225, 65, 89);
+}
+
+a:hover {
+	opacity: 1;
+}
+
+a:active {
+	font-weight: 600;
+}

@@ -1,0 +1,48 @@
+a[target] {
+	background-color: cadetblue;
+}
+
+a[target="_blank"] {
+	background-color: greenyellow;
+}
+
+input[value~="val"] {
+	border: 1px solid salmon;
+}
+/* <input value="val ..." />, <input value="val" />*/
+
+[class|="middle"] {
+	background-color: yellowgreen;
+}
+/* class="middle-...", class="middle" */
+
+[class^="top"] {
+	background-color: fuchsia;
+}
+/* class="top...",  class="top" */
+
+[class$="line"] {
+	background-color: rgb(255, 255, 0);
+}
+/* class="...line", class="line" */
+
+p[class*="-"] {
+	background-color: mediumturquoise;
+}
+
+li:first-child {
+	color: blue;
+}
+
+li:not(:first-child) {
+	color: red;
+}
+
+li:nth-child(3) {
+	color: purple;
+}
+
+::marker {
+	color: blue;
+	font-size: 20px;
+}

@@ -1,0 +1,39 @@
+p {
+	width: 200px;
+}
+
+p::first-line {
+	color: blue;
+}
+
+p::first-letter {
+	color: brown;
+}
+
+section {
+	position: relative;
+}
+
+section::before {
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: blue;
+	bottom: 0;
+}
+
+section::after {
+	content: "🦄";
+	position: absolute;
+}
+
+::marker {
+	color: blue;
+	font-size: 20px;
+}
+
+::selection {
+	color: black;
+	background: yellow;
+}

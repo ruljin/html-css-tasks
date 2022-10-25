@@ -1,0 +1,68 @@
+.image {
+	width: 200px;
+	height: 200px;
+	margin-left: 15px;
+}
+
+img {
+	float: right;
+	/* float: left; */
+}
+
+/* div {
+	color: white;
+	float: left;
+	padding: 5px;
+}
+
+div:first-child {
+	background-color: rgb(79, 23, 132);
+}
+
+div:nth-child(2) {
+	background-color: rgb(24, 24, 91);
+}
+
+div:last-child {
+	background-color: rgb(14, 60, 60);
+} */
+
+.division__one {
+	float: left;
+	padding: 5px;
+	border: 2px solid red;
+}
+
+.division__two {
+	padding: 5px;
+	border: 2px solid green;
+}
+
+.division__three {
+	float: left;
+	padding: 5px;
+	border: 2px solid green;
+}
+
+.division__four {
+	clear: left;
+	padding: 5px;
+	border: 2px solid red;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+}
+
+.float__right {
+	float: right;
+}
+
+.border {
+	border: 2px solid green;
+}

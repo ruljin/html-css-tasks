@@ -1,0 +1,27 @@
+:root {
+	--main-color: rgb(81, 53, 72);
+	--small-width: 50px;
+}
+
+div {
+	width: var(--small-width);
+	height: 100px;
+	transition: width 2s;
+	background-color: var(--main-color);
+}
+
+div:hover {
+	width: 300px;
+}
+
+.item1 {
+	transform: rotate(10deg);
+}
+
+.item2 {
+	transform: skewY(30deg);
+}
+
+.item3 {
+	transform: scaleY(1.5);
+}

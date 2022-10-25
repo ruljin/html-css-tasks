@@ -1,0 +1,28 @@
+* {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+	background-color: red;
+}
+/* 1 */
+
+.green {
+	background-color: green;
+}
+/* 10 */
+
+p.green {
+	background-color: aqua;
+}
+/* 11 */
+
+#yellow {
+	background-color: yellow;
+}
+/* 100 */
+
+p#yellow {
+	background-color: pink;
+}
+/* 101 */
